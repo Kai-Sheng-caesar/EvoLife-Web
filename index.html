@@ -16,7 +16,7 @@
   <nav class="nav" aria-label="Main navigation">
     <a class="brand" href="#top" aria-label="EVOLIFE home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M14 1h4v5h6v3h4v17h-4v4H8v-4H4V9h4V6h6Z" fill="currentColor"/><path d="M8 12h16v10H8Z" fill="#112221"/><path d="M11 15h3v4h-3Zm7 0h3v4h-3Z" fill="#c7f69b"/></svg><span>EVO<span class="brand-life">LIFE</span></span></a>
     <div class="nav-links"><a href="#agent">The agent</a><a href="#demos">Demos</a><a href="#world">Real world</a><a href="#results">Results</a><a href="#cases">Cases</a></div>
-    <div class="nav-actions"><button id="motion-toggle" class="motion-button" aria-pressed="false" title="Pause decorative motion"><span class="motion-icon">Ⅱ</span><span class="sr-only">Pause motion</span></button><span class="nav-paper coming-soon" data-release="paper" aria-label="Paper coming soon">Paper <small>Coming Soon</small></span></div>
+    <div class="nav-actions"><button id="motion-toggle" class="motion-button" aria-pressed="false" title="Pause decorative motion"><span class="motion-icon">Ⅱ</span><span class="sr-only">Pause motion</span></button><a class="nav-paper" data-release="paper" href="https://arxiv.org/abs/2610.39446" target="_blank" rel="noopener noreferrer" aria-label="Read the paper on arXiv">Paper ↗</a></div>
   </nav>
 
   <main id="main">
@@ -31,7 +31,7 @@
           <div class="authors" id="authors">Kai Sheng · Liuyi Wang<sup class="corresponding-mark" title="Corresponding author" aria-label="Corresponding author">†</sup> · Jinlong Li · Haojie Dai<br>Chengju Liu · Qijun Chen<sup class="corresponding-mark" title="Corresponding author" aria-label="Corresponding author">†</sup></div>
           <p class="correspondence">† Corresponding authors</p>
           <p class="affiliation">Tongji University · Shanghai, China</p>
-          <div class="hero-buttons"><a class="button primary" href="#demos"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6 3 11 7-11 7Z" fill="currentColor"/></svg>See it in action</a><span class="button outline coming-soon" data-release="paper">Paper <small>Coming Soon</small></span><span class="button outline coming-soon" data-release="code">Code <small>Coming Soon</small></span></div>
+          <div class="hero-buttons"><a class="button primary" href="#demos"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6 3 11 7-11 7Z" fill="currentColor"/></svg>See it in action</a><a class="button outline" data-release="paper" href="https://arxiv.org/abs/2610.39446" target="_blank" rel="noopener noreferrer">Paper ↗</a><span class="button outline coming-soon" data-release="code">Code <small>Coming Soon</small></span></div>
           <p class="hero-footnote">Navigate with intention. Interact with curiosity. Evolve through experience.</p>
         </div>
 
@@ -137,14 +137,17 @@
       </div>
     </section>
 
-    <section class="section citation-section" id="citation"><div class="citation-heading"><p class="eyebrow">TAKE THE NEXT STEP</p><h2>Stay curious.<br><span>Keep exploring.</span></h2><p>A new encounter. A better way forward.<br>Paper and code are coming soon.</p><div class="release-links"><span class="button outline coming-soon" data-release="paper">Paper <small>Coming Soon</small></span><span class="button outline coming-soon" data-release="code">Code <small>Coming Soon</small></span></div></div><div class="citation-box"><div><span>BIBTEX</span><button id="copy-citation">Copy <span>⧉</span></button></div><pre id="citation-text">@misc{sheng2026evolife,
+    <section class="section citation-section" id="citation"><div class="citation-heading"><p class="eyebrow">TAKE THE NEXT STEP</p><h2>Stay curious.<br><span>Keep exploring.</span></h2><p>A new encounter. A better way forward.<br>Read the paper on arXiv. Code is coming soon.</p><div class="release-links"><a class="button outline" data-release="paper" href="https://arxiv.org/abs/2610.39446" target="_blank" rel="noopener noreferrer">Paper ↗</a><span class="button outline coming-soon" data-release="code">Code <small>Coming Soon</small></span></div></div><div class="citation-box"><div><span>BIBTEX</span><button id="copy-citation">Copy <span>⧉</span></button></div><pre id="citation-text">@misc{sheng2026askevolveunifiedharness,
   title = {Ask to Evolve: A Unified Harness for Lifelong
            Embodied Navigation with Hybrid Action Space
            and Persistent Memory},
   author = {Kai Sheng and Liuyi Wang and Jinlong Li and
             Haojie Dai and Chengju Liu and Qijun Chen},
   year = {2026},
-  note = {Technical report}
+  eprint = {2610.39446},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO},
+  url = {https://arxiv.org/abs/2610.39446}
 }</pre><p id="copy-status" aria-live="polite"></p></div></section>
   </main>
 

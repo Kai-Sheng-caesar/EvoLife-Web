@@ -13,9 +13,9 @@
     "Qijun Chen"
   ],
   "links": {
-    "paper": null,
+    "paper": "https://arxiv.org/abs/2610.39446",
     "code": null,
-    "status": "coming_soon"
+    "status": "paper_available"
   },
   "benchmarks": [
     {
