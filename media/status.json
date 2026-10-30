@@ -39,10 +39,10 @@
       "display_instruction": "Find a flowerpot.",
       "success": true,
       "status": "ready",
-      "src": "media/ovon_62_display_v1/replay-v6.mp4",
-      "poster": "media/ovon_62_display_v1/preview-v6.jpg",
+      "src": "media/ovon_62_display_v1/replay-v7.mp4",
+      "poster": "media/ovon_62_display_v1/preview-v7.jpg",
       "interactions_src": "media/ovon_62_display_v1/interactions.json",
-      "sha256": "bf71af1010e8674ce1ab255248da887f26eb0f170583edc6cb858b107f0d23be"
+      "sha256": "e22441d9fcad781a4db6304dbab9035095a266d61fcc6d47de7dcf540fc579b6"
     },
     {
       "id": "hm3dv2_69",
@@ -54,10 +54,10 @@
       "display_instruction": "Find a plant.",
       "success": true,
       "status": "ready",
-      "src": "media/hm3dv2_69_display_v1/replay-v6.mp4",
-      "poster": "media/hm3dv2_69_display_v1/preview-v6.jpg",
+      "src": "media/hm3dv2_69_display_v1/replay-v7.mp4",
+      "poster": "media/hm3dv2_69_display_v1/preview-v7.jpg",
       "interactions_src": "media/hm3dv2_69_display_v1/interactions.json",
-      "sha256": "4fd9eca22bdf392cb8974b480eeb0cedd9390f2f96f9a20087328b02ae8d935f"
+      "sha256": "96769e02d8f0848a63d8f830b9dbc90ec4bf76895ab9c2187dba331d7b9e1542"
     },
     {
       "id": "vlln_1",
@@ -154,10 +154,10 @@
       "display_instruction": "Find a decorative plant.",
       "success": true,
       "status": "ready",
-      "src": "media/ovon_51/replay-v6.mp4",
-      "poster": "media/ovon_51/preview-v6.jpg",
+      "src": "media/ovon_51/replay-v7.mp4",
+      "poster": "media/ovon_51/preview-v7.jpg",
       "interactions_src": "media/ovon_51/interactions.json",
-      "sha256": "751808d9f5b7304478cf982e6dcd59ecaf76f9c50fc22d5424e92e394ee15d53"
+      "sha256": "28b1fce5818b10ccfa47a2c9baacac341e2db83cebe0651875c9f7e9e91b8382"
     },
     {
       "id": "hm3dv2_11",
@@ -169,10 +169,10 @@
       "display_instruction": "Find a bed.",
       "success": true,
       "status": "ready",
-      "src": "media/hm3dv2_11_display_v1/replay.mp4",
-      "poster": "media/hm3dv2_11_display_v1/preview.jpg",
+      "src": "media/hm3dv2_11_display_v1/replay-v7.mp4",
+      "poster": "media/hm3dv2_11_display_v1/preview-v7.jpg",
       "interactions_src": "media/hm3dv2_11_display_v1/interactions.json",
-      "sha256": "8fd7fa735dd194cf2ea76b5b71cd5be4a7dcf81fc619b3e99966fd0fd5443de8"
+      "sha256": "4c19c4758bee72b1ba38f7da15ef75d1253b160917f88a67f654a99c73cb4077"
     },
     {
       "id": "vlln_51",
