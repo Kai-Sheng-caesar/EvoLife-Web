@@ -1,0 +1,333 @@
+{
+  "abstract": "Giving embodied agents the freedom to act autonomously, initiate interactions, and understand their surroundings through experience is a step toward bringing them to life in the physical world. Realizing this vision requires action, interaction, and memory to work together, so that each encounter can inform current decisions and contribute experience for future tasks. We present EVOLIFE, a unified navigation harness that enables a multimodal embodied agent to choose how to move, when to ask, and what experience to carry forward. Its hybrid action space supports waypoint navigation, local discrete adjustments, pixel-based navigation, and object-directed navigation. Active interaction allows the agent to seek clarification or assistance when it encounters ambiguity or difficulty, while persistent spatial memory binds observations and dialogue to places, retaining useful experience to guide subsequent visits. We evaluate eight benchmarks across four task families: vision-language navigation, object navigation, interactive instance navigation, and continuous multi-task navigation. With an average of only 1.87 active interactions per episode, our method achieves a first-visit success rate (SR) of 100% across four 100-episode sets spanning vision-language navigation and object navigation. Complete-sequence SR reaches 98% on 50 LHPR-VLN sequences and 94% on 50 GOAT-Bench sequences. In the R2R revisit setting, success weighted by path length (SPL) increases from 82.23% to 93.31% with retained experience. Multi-day physical navigation further demonstrates exploration, proactive help-seeking, and revisiting remembered places. Together, these results advance the vision of bringing embodied agents to life through autonomous action, proactive interaction, and the accumulation and reuse of experience.",
+  "authors": [
+    "Kai Sheng",
+    "Liuyi Wang",
+    "Jinlong Li",
+    "Haojie Dai",
+    "Chengju Liu",
+    "Qijun Chen"
+  ],
+  "corresponding_authors": [
+    "Liuyi Wang",
+    "Qijun Chen"
+  ],
+  "links": {
+    "paper": null,
+    "code": null,
+    "status": "coming_soon"
+  },
+  "benchmarks": [
+    {
+      "id": "r2r",
+      "name": "R2R-CE",
+      "family": "vision-language-navigation",
+      "episodes": 100,
+      "subtasks": 100,
+      "metrics": {
+        "ne": 0.95,
+        "osr": 100.0,
+        "sr": 100.0,
+        "spl": 82.2
+      },
+      "thumbnail": "assets/benchmarks/r2r-176-front.webp"
+    },
+    {
+      "id": "rxr",
+      "name": "RxR-CE",
+      "family": "vision-language-navigation",
+      "episodes": 100,
+      "subtasks": 100,
+      "metrics": {
+        "ne": 0.71,
+        "ndtw": 82.3,
+        "sr": 100.0,
+        "spl": 75.4
+      },
+      "thumbnail": "assets/benchmarks/rxr-86-front.webp"
+    },
+    {
+      "id": "hm3dv2",
+      "name": "HM3D v2",
+      "family": "object-navigation",
+      "episodes": 100,
+      "subtasks": 100,
+      "metrics": {
+        "ne": 0.04,
+        "sr": 100.0,
+        "spl": 64.3
+      },
+      "thumbnail": "assets/benchmarks/hm3dv2-69-front.webp"
+    },
+    {
+      "id": "ovon",
+      "name": "HM3D-OVON",
+      "family": "object-navigation",
+      "episodes": 100,
+      "subtasks": 100,
+      "metrics": {
+        "ne": 0.1,
+        "sr": 100.0,
+        "spl": 71.4
+      },
+      "thumbnail": "assets/benchmarks/ovon-62-front.webp"
+    },
+    {
+      "id": "vlln",
+      "name": "VL-LN",
+      "family": "interactive-instance-navigation",
+      "episodes": 100,
+      "subtasks": 100,
+      "metrics": {
+        "sr": 99.0,
+        "spl": 76.2,
+        "nq": 3.21
+      },
+      "thumbnail": "assets/benchmarks/vlln-1-front.webp"
+    },
+    {
+      "id": "coin",
+      "name": "CoIN",
+      "family": "interactive-instance-navigation",
+      "episodes": 100,
+      "subtasks": 100,
+      "metrics": {
+        "sr": 100.0,
+        "spl": 73.5,
+        "nq": 2.83
+      },
+      "thumbnail": "assets/benchmarks/coin-74-front.webp"
+    },
+    {
+      "id": "lhpr",
+      "name": "LHPR-VLN",
+      "family": "continuous-multi-task-navigation",
+      "episodes": 50,
+      "subtasks": 133,
+      "metrics": {
+        "sr": 98.0,
+        "isr": 99.3,
+        "csr": 98.9,
+        "cgt": 98.8
+      },
+      "thumbnail": "assets/benchmarks/lhpr-21-front.webp"
+    },
+    {
+      "id": "goat",
+      "name": "GOAT-Bench",
+      "family": "continuous-multi-task-navigation",
+      "episodes": 50,
+      "subtasks": 372,
+      "metrics": {
+        "subtask_sr": 99.3,
+        "spl": 81.9,
+        "episode_sr": 94.0
+      },
+      "thumbnail": "assets/benchmarks/goat-41-front.webp"
+    }
+  ],
+  "backbone": [
+    {
+      "model": "GPT-6 Astra (ultra)",
+      "metrics": {
+        "osr": 100.0,
+        "sr": 100.0,
+        "spl": 82.2,
+        "ne": 0.95,
+        "steps": 70.12,
+        "decisions": 15.57,
+        "interactions": 1.66,
+        "time_s": 164.08,
+        "cost_usd": 1.06
+      }
+    },
+    {
+      "model": "Qwen3.8-Max (xhigh)",
+      "metrics": {
+        "osr": 93.0,
+        "sr": 91.0,
+        "spl": 70.2,
+        "ne": 1.71,
+        "steps": 104.9,
+        "decisions": 72.98,
+        "interactions": 1.59,
+        "time_s": 906.2,
+        "cost_usd": 0.46
+      }
+    },
+    {
+      "model": "DeepSeek V4.1-Flash (max)",
+      "metrics": {
+        "osr": 99.0,
+        "sr": 98.0,
+        "spl": 70.8,
+        "ne": 1.21,
+        "steps": 118.44,
+        "decisions": 44.72,
+        "interactions": 3.21,
+        "time_s": 459.12,
+        "cost_usd": 0.03
+      }
+    }
+  ],
+  "ablations": [
+    {
+      "model": "GPT-6 Astra",
+      "interaction": false,
+      "initial_memory": false,
+      "metrics": {
+        "osr": 89.0,
+        "sr": 86.0,
+        "spl": 63.7,
+        "ne": 2.86,
+        "steps": 94.06,
+        "decisions": 18.71
+      },
+      "interactions": 0.0,
+      "time_s": 170.17,
+      "cost_usd": 1.22
+    },
+    {
+      "model": "GPT-6 Astra",
+      "interaction": true,
+      "initial_memory": false,
+      "metrics": {
+        "osr": 100.0,
+        "sr": 100.0,
+        "spl": 82.2,
+        "ne": 0.95,
+        "steps": 70.12,
+        "decisions": 15.57
+      },
+      "interactions": 1.66,
+      "time_s": 164.08,
+      "cost_usd": 1.06
+    },
+    {
+      "model": "GPT-6 Astra",
+      "interaction": false,
+      "initial_memory": true,
+      "metrics": {
+        "osr": 100.0,
+        "sr": 100.0,
+        "spl": 93.3,
+        "ne": 0.95,
+        "steps": 54.43,
+        "decisions": 12.31
+      },
+      "interactions": 0.0,
+      "time_s": 107.41,
+      "cost_usd": 1.11
+    },
+    {
+      "model": "DeepSeek V4.1-Flash",
+      "interaction": false,
+      "initial_memory": false,
+      "metrics": {
+        "osr": 68.0,
+        "sr": 55.0,
+        "spl": 39.5,
+        "ne": 5.23,
+        "steps": 136.64,
+        "decisions": 43.02
+      },
+      "interactions": 0.0,
+      "time_s": 361.21,
+      "cost_usd": 0.03
+    },
+    {
+      "model": "DeepSeek V4.1-Flash",
+      "interaction": true,
+      "initial_memory": false,
+      "metrics": {
+        "osr": 99.0,
+        "sr": 98.0,
+        "spl": 70.8,
+        "ne": 1.21,
+        "steps": 118.44,
+        "decisions": 44.72
+      },
+      "interactions": 3.21,
+      "time_s": 459.12,
+      "cost_usd": 0.03
+    },
+    {
+      "model": "DeepSeek V4.1-Flash",
+      "interaction": false,
+      "initial_memory": true,
+      "metrics": {
+        "osr": 99.0,
+        "sr": 99.0,
+        "spl": 86.0,
+        "ne": 1.18,
+        "steps": 69.47,
+        "decisions": 18.01
+      },
+      "interactions": 0.0,
+      "time_s": 141.36,
+      "cost_usd": 0.02
+    }
+  ],
+  "figures": [
+    {
+      "id": "teaser",
+      "title": "Eight benchmarks. One living agent.",
+      "src": "assets/figures/teaser.webp",
+      "full": "assets/figures/teaser.png",
+      "preview": "assets/figures/teaser-preview.webp",
+      "width": 3185,
+      "height": 1237,
+      "caption": "EVOLIFE takes a step toward bringing embodied agents to life through autonomous action, proactive interaction, and the accumulation of experience. The left panel presents four tasks: vision-language navigation, object navigation, interactive instance navigation, and continuous multi-task navigation. The center shows the unified harness, connecting a hybrid action space, active interaction, and persistent spatial memory. The right panel reports success rate (SR) across eight simulation benchmarks and illustrates multi-day physical navigation, demonstrating the agent's ability to respond to environmental changes, proactively seek assistance, and revisit remembered places."
+    },
+    {
+      "id": "overview",
+      "title": "A unified navigation harness",
+      "src": "assets/figures/overview.webp",
+      "full": "assets/figures/overview.png",
+      "preview": "assets/figures/overview-preview.webp",
+      "width": 2796,
+      "height": 1925,
+      "caption": "Overview of the unified EVOLIFE framework. A multimodal agent integrates hybrid actions, active interaction, and persistent memory within a unified decision loop. The agent adaptively selects navigation actions based on current observations and execution feedback, actively seeks external guidance to resolve navigation uncertainties, and retains spatially grounded experience for future tasks. Cᵢ denotes a geometric candidate waypoint. Pᵢ denotes a remembered place associated with its recorded pose and supporting evidence. Dᵢ denotes the i-th tool-level decision, encompassing perception, navigation, interaction, and memory operations. Qᵢ and Aᵢ denote the agent-generated question and the corresponding guide answer in the i-th interaction, respectively. The illustrated example demonstrates how hybrid actions, interaction, and memory jointly support lifelong embodied navigation."
+    },
+    {
+      "id": "interaction",
+      "title": "Ask, understand, and remember",
+      "src": "assets/figures/interaction.webp",
+      "full": "assets/figures/interaction.png",
+      "preview": "assets/figures/interaction-preview.webp",
+      "width": 2504,
+      "height": 1062,
+      "caption": "Qualitative example of active interaction and persistent memory in R2R-CE. The agent actively asks whether a nearby wooden door is the intended destination or whether it should continue through a narrow archway. Based on the guide's response, the agent adjusts its navigation direction, proceeds through the archway, and records its entrance as place P2. Q2 and A2 denote the agent's second interaction question and the guide's corresponding answer, respectively, while P2 denotes the stored place record."
+    },
+    {
+      "id": "physical",
+      "title": "Across tasks. Across days.",
+      "src": "assets/figures/physical.webp",
+      "full": "assets/figures/physical.png",
+      "preview": "assets/figures/physical-preview.webp",
+      "width": 3200,
+      "height": 2222,
+      "caption": "Three consecutive real-world robot navigation tasks across two days. In Task 1, the robot navigates from room 625 to the elevator on the opposite side of the floor, recording key locations along the route. In Task 2, the robot returns to room 625 using persistent memory and actively requests human assistance when encountering a closed door. In Task 3, the robot identifies and restores the matching saved map on the following morning and navigates to the glass office visited the previous day. The three trajectories are visualized in a shared coordinate frame, demonstrating active interaction, adaptation to environmental changes, and cross-day memory reuse."
+    },
+    {
+      "id": "oracle",
+      "title": "How the online guide answers",
+      "src": "assets/figures/oracle-5f13956b1e.webp",
+      "full": "assets/figures/oracle-5f13956b1e.png",
+      "preview": "assets/figures/oracle-preview-5f13956b1e.webp",
+      "width": 3455,
+      "height": 1546,
+      "caption": "Online guide response generation. The navigation agent actively generates a question, while an independent multimodal guide generates a natural-language response based on the navigation instruction, current observations, target information, and reference route. The figure illustrates the current and target views, reference route, and spatial relationships between the agent and the destination. Only the generated natural-language response is returned to the navigation agent, which independently makes subsequent decisions. This process simulates natural human-to-human interaction, providing navigation guidance through directions, landmarks, and spatial relationships."
+    },
+    {
+      "id": "failure",
+      "title": "Learning from a stopping failure",
+      "src": "assets/figures/failure.webp",
+      "full": "assets/figures/failure.png",
+      "preview": "assets/figures/failure-preview.webp",
+      "width": 3172,
+      "height": 1443,
+      "caption": "Failure case analysis on GOAT-Bench. Left: the agent successfully completes the picture-finding subtask. Right: the agent subsequently identifies the bookcase with diamond-shaped compartments through active interaction, but stops 0.73 m from the reference target, exceeding the required 0.25 m success threshold. Orange dots on the maps indicate the agent's position. Pᵢ denotes a saved place in persistent memory. Cᵢ labels candidate waypoint i."
+    }
+  ]
+}
