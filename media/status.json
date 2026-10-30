@@ -10,10 +10,10 @@
       "instruction": "Go straight and then turn to the right and go to the bathroom door.  Go through the doorway and walk through the bathroom to the other door.  You will then be in a gym.  Stop when you get into this room and wait. ",
       "success": true,
       "status": "ready",
-      "src": "media/r2r_176_display_v1/replay-v6.mp4",
-      "poster": "media/r2r_176_display_v1/preview-v6.jpg",
+      "src": "media/r2r_176_display_v1/replay-v8.mp4",
+      "poster": "media/r2r_176_display_v1/preview-v8.jpg",
       "interactions_src": "media/r2r_176_display_v1/interactions.json",
-      "sha256": "eede5613ea8d4ef5fb216e10b65f1d75e630e03bd95d8082ee3afa60a8213df8"
+      "sha256": "72e242365ca6be78262b20bccae89e8d40231ab574d3033bc92760bab009e306"
     },
     {
       "id": "rxr_86",
@@ -24,10 +24,10 @@
       "instruction": "Right now, you're facing towards the cupboard, slightly turn left and move forward. Now, slightly turn left and move forward, where you will be standing in between the couch and the sink platform. Continue to move forward until you reach an passage on the right. Now, turn right and move forward. Now, turn left and enter into the room, and stand in front of the sink and that is the end point.",
       "success": true,
       "status": "ready",
-      "src": "media/rxr_86_display_v1/replay-v6.mp4",
-      "poster": "media/rxr_86_display_v1/preview-v6.jpg",
+      "src": "media/rxr_86_display_v1/replay-v8.mp4",
+      "poster": "media/rxr_86_display_v1/preview-v8.jpg",
       "interactions_src": "media/rxr_86_display_v1/interactions.json",
-      "sha256": "5cc9cdbc4a6c48072e870f514eba32e379703acb0e4823d0d93bbcdc9a2eea7f"
+      "sha256": "5fca884952aaf6423aa7b3737ffb84c8a2ee1ddb2f10e46474fd3e660198a30e"
     },
     {
       "id": "ovon_62",
@@ -54,10 +54,10 @@
       "display_instruction": "Find a plant.",
       "success": true,
       "status": "ready",
-      "src": "media/hm3dv2_69_display_v1/replay-v7.mp4",
-      "poster": "media/hm3dv2_69_display_v1/preview-v7.jpg",
+      "src": "media/hm3dv2_69_display_v1/replay-v8.mp4",
+      "poster": "media/hm3dv2_69_display_v1/preview-v8.jpg",
       "interactions_src": "media/hm3dv2_69_display_v1/interactions.json",
-      "sha256": "96769e02d8f0848a63d8f830b9dbc90ec4bf76895ab9c2187dba331d7b9e1542"
+      "sha256": "620e7cf3a6f50641bb88a0f9e75763f58497fe966475077927c481363b1ebe7a"
     },
     {
       "id": "vlln_1",
@@ -68,10 +68,10 @@
       "instruction": "Search for the couch.",
       "success": true,
       "status": "ready",
-      "src": "media/vlln_1_display_v1/replay-v6.mp4",
-      "poster": "media/vlln_1_display_v1/preview-v6.jpg",
+      "src": "media/vlln_1_display_v1/replay-v8.mp4",
+      "poster": "media/vlln_1_display_v1/preview-v8.jpg",
       "interactions_src": "media/vlln_1_display_v1/interactions.json",
-      "sha256": "953985ef482c59affd591b601ad31df84572f412c952f9deced8323ae516bf42"
+      "sha256": "9b22d9addd3c5660f15170401c58ce190d89d46ebe71f92f890d5b92593ec453"
     },
     {
       "id": "coin_74",
@@ -82,10 +82,10 @@
       "instruction": "Find the mirror",
       "success": true,
       "status": "ready",
-      "src": "media/coin_74_display_v1/replay-v6.mp4",
-      "poster": "media/coin_74_display_v1/preview-v6.jpg",
+      "src": "media/coin_74_display_v1/replay-v8.mp4",
+      "poster": "media/coin_74_display_v1/preview-v8.jpg",
       "interactions_src": "media/coin_74_display_v1/interactions.json",
-      "sha256": "a4f2b7f6c8d5f7b5d0bda986c95e0e6addd35143fec990e177f497d25ad161b6"
+      "sha256": "140905d9a38a4b002258070e0c9f6345087a17c79552e67436cae36d5929143a"
     },
     {
       "id": "lhpr_21",
@@ -96,10 +96,10 @@
       "instruction": "Transfer the stack of papers in the office to the table in the kitchen, then retrieve the liquid soap from the bathroom",
       "success": true,
       "status": "ready",
-      "src": "media/lhpr_21_display_v1/replay-v6.mp4",
-      "poster": "media/lhpr_21_display_v1/preview-v6.jpg",
+      "src": "media/lhpr_21_display_v1/replay-v8.mp4",
+      "poster": "media/lhpr_21_display_v1/preview-v8.jpg",
       "interactions_src": "media/lhpr_21_display_v1/interactions.json",
-      "sha256": "4f9526ae09ef15db10ed1a45ebe6a0c3b9d74d272bf69fe4a4ef39f8ed9b64f8"
+      "sha256": "885dd341368604925e30d1ee4f86102db4744d7a1fad64d1dd95c31eca5e734e"
     },
     {
       "id": "goat_41",
@@ -139,10 +139,10 @@
       "instruction": "You are facing towards a kitchen counter top, slightly turn right and walk straight, take the immediate right and enter into the living room, walk straight and enter into the arch on your right, take a step ahead. You are now facing towards a frame on the wall with a brown cupboard on your left and gym equipment on your right. You have reached your destination.",
       "success": true,
       "status": "ready",
-      "src": "media/rxr_17_display_v1/replay-v6.mp4",
-      "poster": "media/rxr_17_display_v1/preview-v6.jpg",
+      "src": "media/rxr_17_display_v1/replay-v8.mp4",
+      "poster": "media/rxr_17_display_v1/preview-v8.jpg",
       "interactions_src": "media/rxr_17_display_v1/interactions.json",
-      "sha256": "c71ea8540c5e5a4c789231d468a78629a89f3b8cdbb9a073078bd2b5c267984e"
+      "sha256": "2e33e981df392d7b4118a33a6a24f71400431cfadce347e4afceefc2b56cf8c2"
     },
     {
       "id": "ovon_51",
@@ -169,10 +169,10 @@
       "display_instruction": "Find a bed.",
       "success": true,
       "status": "ready",
-      "src": "media/hm3dv2_11_display_v1/replay-v7.mp4",
-      "poster": "media/hm3dv2_11_display_v1/preview-v7.jpg",
+      "src": "media/hm3dv2_11_display_v1/replay-v8.mp4",
+      "poster": "media/hm3dv2_11_display_v1/preview-v8.jpg",
       "interactions_src": "media/hm3dv2_11_display_v1/interactions.json",
-      "sha256": "4c19c4758bee72b1ba38f7da15ef75d1253b160917f88a67f654a99c73cb4077"
+      "sha256": "d647ccfddb024b160f0544fe32475a521eee7e14c2fb883c11434dc1f93cf364"
     },
     {
       "id": "vlln_51",
