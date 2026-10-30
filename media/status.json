@@ -10,10 +10,10 @@
       "instruction": "Go straight and then turn to the right and go to the bathroom door.  Go through the doorway and walk through the bathroom to the other door.  You will then be in a gym.  Stop when you get into this room and wait. ",
       "success": true,
       "status": "ready",
-      "src": "media/r2r_176_display_v1/replay.mp4",
-      "poster": "media/r2r_176_display_v1/preview.jpg",
+      "src": "media/r2r_176_display_v1/replay-v6.mp4",
+      "poster": "media/r2r_176_display_v1/preview-v6.jpg",
       "interactions_src": "media/r2r_176_display_v1/interactions.json",
-      "sha256": "d4a47745cf0dd43f764305c897c30412799a81e5706abde26638b4fb8ff5c380"
+      "sha256": "eede5613ea8d4ef5fb216e10b65f1d75e630e03bd95d8082ee3afa60a8213df8"
     },
     {
       "id": "rxr_86",
@@ -24,10 +24,10 @@
       "instruction": "Right now, you're facing towards the cupboard, slightly turn left and move forward. Now, slightly turn left and move forward, where you will be standing in between the couch and the sink platform. Continue to move forward until you reach an passage on the right. Now, turn right and move forward. Now, turn left and enter into the room, and stand in front of the sink and that is the end point.",
       "success": true,
       "status": "ready",
-      "src": "media/rxr_86_display_v1/replay.mp4",
-      "poster": "media/rxr_86_display_v1/preview.jpg",
+      "src": "media/rxr_86_display_v1/replay-v6.mp4",
+      "poster": "media/rxr_86_display_v1/preview-v6.jpg",
       "interactions_src": "media/rxr_86_display_v1/interactions.json",
-      "sha256": "19489e95b3d33d1e9b1a6f7f68d0b11885d244e8a216e7c4856efd9b8df0afad"
+      "sha256": "5cc9cdbc4a6c48072e870f514eba32e379703acb0e4823d0d93bbcdc9a2eea7f"
     },
     {
       "id": "ovon_62",
@@ -39,10 +39,10 @@
       "display_instruction": "Find a flowerpot.",
       "success": true,
       "status": "ready",
-      "src": "media/ovon_62_display_v1/replay.mp4",
-      "poster": "media/ovon_62_display_v1/preview.jpg",
+      "src": "media/ovon_62_display_v1/replay-v6.mp4",
+      "poster": "media/ovon_62_display_v1/preview-v6.jpg",
       "interactions_src": "media/ovon_62_display_v1/interactions.json",
-      "sha256": "145887b2c74840eb8e00a7706b08db7e1a3b0f40b1dcc94c075b1e49744246b4"
+      "sha256": "bf71af1010e8674ce1ab255248da887f26eb0f170583edc6cb858b107f0d23be"
     },
     {
       "id": "hm3dv2_69",
@@ -54,10 +54,10 @@
       "display_instruction": "Find a plant.",
       "success": true,
       "status": "ready",
-      "src": "media/hm3dv2_69_display_v1/replay.mp4",
-      "poster": "media/hm3dv2_69_display_v1/preview.jpg",
+      "src": "media/hm3dv2_69_display_v1/replay-v6.mp4",
+      "poster": "media/hm3dv2_69_display_v1/preview-v6.jpg",
       "interactions_src": "media/hm3dv2_69_display_v1/interactions.json",
-      "sha256": "c628b19063774e16044b4ccf871f4db42bb254b127cf9ffde764022af0213db1"
+      "sha256": "4fd9eca22bdf392cb8974b480eeb0cedd9390f2f96f9a20087328b02ae8d935f"
     },
     {
       "id": "vlln_1",
@@ -68,10 +68,10 @@
       "instruction": "Search for the couch.",
       "success": true,
       "status": "ready",
-      "src": "media/vlln_1_display_v1/replay.mp4",
-      "poster": "media/vlln_1_display_v1/preview.jpg",
+      "src": "media/vlln_1_display_v1/replay-v6.mp4",
+      "poster": "media/vlln_1_display_v1/preview-v6.jpg",
       "interactions_src": "media/vlln_1_display_v1/interactions.json",
-      "sha256": "c1e04ab65849e1363fbbbb1ce3d67886d0248499c4fbe7748f9fd79cf01e8e30"
+      "sha256": "953985ef482c59affd591b601ad31df84572f412c952f9deced8323ae516bf42"
     },
     {
       "id": "coin_74",
@@ -82,10 +82,10 @@
       "instruction": "Find the mirror",
       "success": true,
       "status": "ready",
-      "src": "media/coin_74_display_v1/replay.mp4",
-      "poster": "media/coin_74_display_v1/preview.jpg",
+      "src": "media/coin_74_display_v1/replay-v6.mp4",
+      "poster": "media/coin_74_display_v1/preview-v6.jpg",
       "interactions_src": "media/coin_74_display_v1/interactions.json",
-      "sha256": "a99c0c4d31e54b90e4d3031ac5d48ffc1dbe662e163dd7ce64ab72ee476257c7"
+      "sha256": "a4f2b7f6c8d5f7b5d0bda986c95e0e6addd35143fec990e177f497d25ad161b6"
     },
     {
       "id": "lhpr_21",
@@ -96,10 +96,10 @@
       "instruction": "Transfer the stack of papers in the office to the table in the kitchen, then retrieve the liquid soap from the bathroom",
       "success": true,
       "status": "ready",
-      "src": "media/lhpr_21_display_v1/replay.mp4",
-      "poster": "media/lhpr_21_display_v1/preview.jpg",
+      "src": "media/lhpr_21_display_v1/replay-v6.mp4",
+      "poster": "media/lhpr_21_display_v1/preview-v6.jpg",
       "interactions_src": "media/lhpr_21_display_v1/interactions.json",
-      "sha256": "7fb5531ff937acc0b01b293bd823e7de881a77fe438f4e64d74a64e5b0317585"
+      "sha256": "4f9526ae09ef15db10ed1a45ebe6a0c3b9d74d272bf69fe4a4ef39f8ed9b64f8"
     },
     {
       "id": "goat_41",
@@ -110,10 +110,10 @@
       "instruction": "Follow the current GOAT-Bench subtask goal. Submit each goal using STOP, then continue from the actual pose.",
       "success": true,
       "status": "ready",
-      "src": "media/goat_41/replay.mp4",
-      "poster": "media/goat_41/preview.jpg",
+      "src": "media/goat_41/replay-v6.mp4",
+      "poster": "media/goat_41/preview-v6.jpg",
       "interactions_src": "media/goat_41/interactions.json",
-      "sha256": "5bb4c9dcb6c82e5dfdd5c9d1af778086764c4f53b9b47a70d63a1e5382b77112"
+      "sha256": "e990d85360cd8f239c40958d2cccafb90042e4aa312a3f9e38275d1efce535e9"
     },
     {
       "id": "r2r_559",
@@ -125,10 +125,10 @@
       "display_instruction": "Walk straight out the door in front of you and follow the red carpet. Keep going through the room with the ropes and stop when you enter the next room with ropes. ",
       "success": true,
       "status": "ready",
-      "src": "media/r2r_559/replay.mp4",
-      "poster": "media/r2r_559/preview.jpg",
+      "src": "media/r2r_559/replay-v6.mp4",
+      "poster": "media/r2r_559/preview-v6.jpg",
       "interactions_src": "media/r2r_559/interactions.json",
-      "sha256": "081ebdab36318ad5b2758594bc17031cc77dff78485eb3f6efc23217ba287371"
+      "sha256": "667aa9648eea11916405946c9bbcfa351006b02c8a6e9fd164e4d87d410a1cea"
     },
     {
       "id": "rxr_17",
@@ -139,10 +139,10 @@
       "instruction": "You are facing towards a kitchen counter top, slightly turn right and walk straight, take the immediate right and enter into the living room, walk straight and enter into the arch on your right, take a step ahead. You are now facing towards a frame on the wall with a brown cupboard on your left and gym equipment on your right. You have reached your destination.",
       "success": true,
       "status": "ready",
-      "src": "media/rxr_17_display_v1/replay.mp4",
-      "poster": "media/rxr_17_display_v1/preview.jpg",
+      "src": "media/rxr_17_display_v1/replay-v6.mp4",
+      "poster": "media/rxr_17_display_v1/preview-v6.jpg",
       "interactions_src": "media/rxr_17_display_v1/interactions.json",
-      "sha256": "aa35b8ff91110eb003a62c11ad121217067b9d73e3733485527b944802fd680b"
+      "sha256": "c71ea8540c5e5a4c789231d468a78629a89f3b8cdbb9a073078bd2b5c267984e"
     },
     {
       "id": "ovon_51",
@@ -154,10 +154,10 @@
       "display_instruction": "Find a decorative plant.",
       "success": true,
       "status": "ready",
-      "src": "media/ovon_51/replay.mp4",
-      "poster": "media/ovon_51/preview.jpg",
+      "src": "media/ovon_51/replay-v6.mp4",
+      "poster": "media/ovon_51/preview-v6.jpg",
       "interactions_src": "media/ovon_51/interactions.json",
-      "sha256": "f89b79da504e8c2b8452bde52ea744751da64342e1d1f0f54ba878b09a8b2253"
+      "sha256": "751808d9f5b7304478cf982e6dcd59ecaf76f9c50fc22d5424e92e394ee15d53"
     },
     {
       "id": "hm3dv2_11",
@@ -183,10 +183,10 @@
       "instruction": "Search for the table.",
       "success": true,
       "status": "ready",
-      "src": "media/vlln_51/replay.mp4",
-      "poster": "media/vlln_51/preview.jpg",
+      "src": "media/vlln_51/replay-v6.mp4",
+      "poster": "media/vlln_51/preview-v6.jpg",
       "interactions_src": "media/vlln_51/interactions.json",
-      "sha256": "0af4ff1dc8ac4d3c4663a46b566f2c685dca45cb90e3ed85d3f6ea75c3d22920"
+      "sha256": "e9904183c187cfa832c4ca9d85a91800fb9c7976ea4bcefc48b64eae824820fa"
     },
     {
       "id": "coin_45",
@@ -197,10 +197,10 @@
       "instruction": "Find the dresser",
       "success": true,
       "status": "ready",
-      "src": "media/coin_45/replay.mp4",
-      "poster": "media/coin_45/preview.jpg",
+      "src": "media/coin_45/replay-v6.mp4",
+      "poster": "media/coin_45/preview-v6.jpg",
       "interactions_src": "media/coin_45/interactions.json",
-      "sha256": "a37f5a1dc58a99529aa0905bd205f434c7156cd1adb73db00817289d03974ca3"
+      "sha256": "83e304c61b4ce2925356f090a30a7d755cce37c80a97990dfc214628cc81d9d8"
     },
     {
       "id": "lhpr_12",
@@ -211,10 +211,10 @@
       "instruction": "Take the tray on the display shelves in the dining room to the wash cabinet in bathroom",
       "success": true,
       "status": "ready",
-      "src": "media/lhpr_12/replay.mp4",
-      "poster": "media/lhpr_12/preview.jpg",
+      "src": "media/lhpr_12/replay-v6.mp4",
+      "poster": "media/lhpr_12/preview-v6.jpg",
       "interactions_src": "media/lhpr_12/interactions.json",
-      "sha256": "b268c11e7cb3bfe1fe3617547b1600af9cd4a13d66be55f69f1d8d88bae9be7b"
+      "sha256": "7d5575b06e93a6c9c9325baf52c13e8e1fe9b54bcbc0bd8df6120c7b65dc7af9"
     },
     {
       "id": "goat_7",
@@ -226,10 +226,10 @@
       "display_instruction": "Follow the current GOAT-Bench subtask goal. Submit each goal using STOP, then continue from the actual pose.",
       "success": true,
       "status": "ready",
-      "src": "media/goat_7/replay.mp4",
-      "poster": "media/goat_7/preview.jpg",
+      "src": "media/goat_7/replay-v6.mp4",
+      "poster": "media/goat_7/preview-v6.jpg",
       "interactions_src": "media/goat_7/interactions.json",
-      "sha256": "30eaf3c6623b60106744ee787d5610f529f1aff75869d5a4ea8cc586cf17925f"
+      "sha256": "787b873ef6df4b2f28881b722f9d1704b4362d0fd4fcb48fdc5e1e2bd55bd923"
     }
   ]
 }
